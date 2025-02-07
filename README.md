@@ -1,5 +1,4 @@
-# 2018 World Cup Group Stage Simulation
-
+# 2018 FIFA World Cup Simulator
 This project simulates the group stage matches of the 2018 FIFA World Cup using a Poisson distribution to generate match scores. It also calculates the group standings based on the simulated outcomes.
 
 ## Table of Contents
