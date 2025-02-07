@@ -1,36 +1,9 @@
-# 2018 FIFA World Cup Simulator
-This project simulates the group stage matches of the 2018 FIFA World Cup using a Poisson distribution to generate match scores. It also calculates the group standings based on the simulated outcomes.
+#Soccer Match Prediction & World Cup Simulation
+This project aims to build a machine learning model to predict the outcome of soccer matches and simulate the 2018 FIFA World Cup tournament to analyze the most probable winners.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Customization](#customization)
-- [License](#license)
-- [Contact](#contact)
-
-## Overview
-
-The simulation takes a list of qualified teams with their draw positions and simulates the round-robin matches in each group. For each match, the number of goals for each team is generated using a Poisson distribution (with a configurable mean, defaulting to 1.5). After all matches have been simulated, the project calculates group standings including points, goals for, goals against, and goal difference.
-
-## Features
-
-- **Match Simulation:** Generates realistic match outcomes using a Poisson process.
-- **Group Standings:** Computes points, goal difference, and other metrics for each group.
-- **Modular Codebase:** Organized into functions for easy maintenance and further development.
-- **Configurable Parameters:** Easily adjust simulation parameters such as the Poisson lambda value.
-
-## Prerequisites
-
-- Python 3.6 or higher
-- Required Python packages:
-  - `pandas`
-  - `numpy`
-
-You can install the required packages using pip:
-
-```bash
-pip install pandas numpy
+#Project Overview
+Objective: Predict the outcome of soccer matches based on historical match data and use the model to simulate the 2018 FIFA World Cup tournament.
+Data: Historical match results (30,000+ matches), teams information, and the list of teams qualified for the 2018 World Cup.
+#Key Deliverables
+Match Prediction Model: A machine learning model that predicts the outcome of a soccer match given the teams.
+World Cup Simulation: A program that simulates the 2018 FIFA World Cup 1,000 times using the model to predict each match.
